@@ -66,29 +66,22 @@ a{
 * header
 ===================================*/
 .header-logo{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     position: relative;
-    /* text-align: center; */
+    text-align: center;
+    margin: 0;
     height: 100%;
-
-    text-align:center;
-    margin:0 auto;
-
 }
 
 .header-title{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-decoration: none;
     color: black;
 
-    /* text-align: center; */
-
-    /* position: absolute; */
-    /* left: 0;
-    right: 0;
-    top: 0;
-    bottom :0;
-    margin:  0; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /*===================================
@@ -140,13 +133,18 @@ a{
 }
 
 .return-top{
+    position: relative;
     text-align: center;
     margin: 0;
     height: 100%;
 }
 
 .return-top a{
+    position: absolute;
     display: block;
     font-size: 20px;
     color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
