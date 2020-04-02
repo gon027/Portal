@@ -99,6 +99,57 @@ a{
     border: 0;
 }
 
+.work-container{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+/*===================================
+* work
+===================================*/
+.work-box{
+    background-color: rgb(190, 183, 255);
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.work-separator-line{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    border: 0;
+}
+
+.work-photo{
+    width: 90%;
+}
+
+.work-link-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.work-link-btn{
+    width: 100px;
+    height: 50px;
+}
+
+.work-github-btn{
+    text-decoration: none;
+    background-color: rgb(35, 41, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /*===================================
 * links
 ===================================*/
