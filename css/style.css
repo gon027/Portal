@@ -99,20 +99,32 @@ a{
     border: 0;
 }
 
-.work-container{
-    background-color: blueviolet;
-    width: 100%;
-}
-
 /*===================================
 * work
 ===================================*/
+.work-container{
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+}
+
+.work-container::after{
+
+}
+
 .work-box{
     background-color: rgb(190, 183, 255);
     border: 2px solid black;
     width: 400px;
     text-align: center;
     padding: 10px;
+    margin: 10px;
 }
 
 .work-separator-line{
