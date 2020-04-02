@@ -16,7 +16,7 @@ header{
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 75px;
+    height: 100px;
 }
 
 header a, footer a{
@@ -41,50 +41,24 @@ h1{
     display: block;
     margin: 0;
     position: relative;
-    top: 20px;
+    /* top: 20px; */
 }
 
-h2{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 50px;
-}
-
-h3{
-    margin: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 30px;
-}
-
-h3:hover{
-    color: green;
-}
-
-h4{
-    margin: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-}
-
-p{
-    text-align: center;
+a{
+    text-decoration: none;
 }
 
 /* id */
 
 #main-content{
-    /* background-color: aquamarine;
-    border: 5px solid yellowgreen; */
-    padding-top: 25px;
+    background-color: aquamarine;
+    border: 5px solid yellowgreen;
+    padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* class */
@@ -98,47 +72,43 @@ p{
     text-align: center;
 }
 
-.text{
-    position: relative;
-    top: 0;
-    left: 40px;
-    width: 225px;
+/*===================================
+* header
+===================================*/
+.header-logo{
+    height: 100%;
+    /* position: relative;
+    display: block;
+    text-align: center; */
 }
 
-.image{
-    position: relative;
-    width: 48px;
-    height: 48px;
+.header-title{
+    height: 100%;
+    /* width: 100%; */
 }
 
-.icon{
-    border-radius: 50%;
-    border: 5px solid black;
+/*===================================
+* main
+===================================*/
+.main-text{
+    font-size: 15px;
 }
 
-.header-list{
-    font-size: 30px;
-    font-weight: bold;
+.hbar{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    border: 0;
 }
 
-.github-contact, .twitter-contact
-, .mail-contact, .youtube-contact{
+/*===================================
+* links
+===================================*/
+.twitter-contact{
     margin: 30px;
     position: relative;
     top: 40px;
-    /* transition: all 0.3s ease 0s; */
-}
-
-.github-contact{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(35, 41, 47);
-    text-decoration: none;
-    border-radius: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .twitter-contact{
@@ -153,37 +123,13 @@ p{
     padding-right: 40px;
 }
 
-.mail-contact{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(159, 160, 160);
-    text-decoration: none;
-    border-radius: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 55px;
-    padding-right: 55px;
-}
-
-.youtube-contact{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
-    text-decoration: none;
-    border-radius: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.github-contact:hover, 
-.twitter-contact:hover,
-.mail-contact:hover,
-.youtube-contact:hover{
+.twitter-contact:hover{
     opacity: 0.9;
 }
 
+/*===================================
+* footer
+===================================*/
 .footer-list{
     /* display: inline-block; */
     text-align: center;
@@ -191,8 +137,16 @@ p{
 }
 
 .return-top{
-    /* background-color: brown; */
-    text-align: center;
-    height: 30px;
-    margin: 20px;
+    /* text-align: center; */
+    /* height: 30px; */
+    /* margin: 0px;
+    padding: 50px; */
+
+    height: 100%;
+}
+
+.return-top a{
+    font-size: 20px;
+    color: black;
+    display: block;
 }
