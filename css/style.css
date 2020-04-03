@@ -114,13 +114,22 @@ a{
     /* align-content: space-between; */
 }
 
-.work-container::after{
-
-}
+/* .work-container::after{
+    content:"";
+    display: block;
+    width:33%;
+} */
 
 .work-box{
     background-color: rgb(190, 183, 255);
     border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.work-empty{
     width: 400px;
     text-align: center;
     padding: 10px;
